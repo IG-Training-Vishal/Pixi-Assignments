@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Serif", "sans-serif";
+  overflow: hidden;
+  background-image: url("https://th.bing.com/th/id/R.e3fd9afa80980fff0948b5632cb13e4c?rik=NidyJ1pBznYecQ&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2014%2f05%2fGold-wallpaper-9.jpg&ehk=AWvFEj63DaDqjYoE60kG%2fTHSqusxEu5y3xJHGlM8Us4%3d&risl=1&pid=ImgRaw&r=0");
+}
+
+canvas{
+  display: block;
+  width: 1024px;
+  height: 768px;
+  margin: auto;
+  margin-top: 35px;
+  
+  
+  border-radius: 5px;
+ // background-color: rgb(245, 118, 118);
+  // color: rgb(233, 56, 56);
+}
+
+.progress {
+  position: fixed;
+  top:0;
+  left:0;
+  background: darkgreen;
+  width:0;
+  height: 3px;
+}
